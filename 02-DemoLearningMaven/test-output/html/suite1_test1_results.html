@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">testng_cases.ReportGenerationCases</th>
+	    <th id="testClassNameId" hidden="true">ReportGenerationCases</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">D:\XORD\Eclipse\02-DemoLearningMaven\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:00:00</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>4</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+				
+				
+				
+												<tr>
+			<td class="time">1674733926513</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('73a414c8-c4e1-4dea-817f-f24d20235911','block');changeSingleIcon('span-73a414c8-c4e1-4dea-817f-f24d20235911');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testng_cases.ReportGenerationCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-73a414c8-c4e1-4dea-817f-f24d20235911' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1674733926513</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportMethod4</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="73a414c8-c4e1-4dea-817f-f24d20235911" style="display: block;">
+												Method name is - reportMethod4<br>
+												Success Result - true<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1674733926502</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d252fc18-164c-4fd0-b90e-6ec413741ab5','block');changeSingleIcon('span-d252fc18-164c-4fd0-b90e-6ec413741ab5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testng_cases.ReportGenerationCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d252fc18-164c-4fd0-b90e-6ec413741ab5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1674733926502</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportMethod2</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d252fc18-164c-4fd0-b90e-6ec413741ab5" style="display: block;">
+												Method name is - reportMethod2<br>
+												Success Result - true<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1674733926485</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9677b745-d3c9-4ebf-b0ea-a8aac4cc974d','block');changeSingleIcon('span-9677b745-d3c9-4ebf-b0ea-a8aac4cc974d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testng_cases.ReportGenerationCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9677b745-d3c9-4ebf-b0ea-a8aac4cc974d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1674733926485</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportMethod1</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.012s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="9677b745-d3c9-4ebf-b0ea-a8aac4cc974d" style="display: block;">
+												Method name is - reportMethod1<br>
+												Success Result - true<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1674733926507</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5e34b50b-1d74-424c-9e14-a7c834133fef','block');changeSingleIcon('span-5e34b50b-1d74-424c-9e14-a7c834133fef');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testng_cases.ReportGenerationCases</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5e34b50b-1d74-424c-9e14-a7c834133fef' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1674733926507</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>reportMethod3</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5e34b50b-1d74-424c-9e14-a7c834133fef" style="display: block;">
+												Method name is - reportMethod3<br>
+												Success Result - true<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T17:29:18 PKT" name="Default suite" finished-at="2023-02-06T17:29:34 PKT" duration-ms="16428">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T17:29:18 PKT" name="Default test" finished-at="2023-02-06T17:29:34 PKT" duration-ms="16428">
+      <class name="com.sonarwallet.qa.testcases.SignupPasswordTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sonarwallet.qa.testcases.SignupPasswordTest@4f80542f]" started-at="2023-02-06T17:29:18 PKT" name="setUp" finished-at="2023-02-06T17:29:25 PKT" duration-ms="7225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPasswordTest()[pri:0, instance:com.sonarwallet.qa.testcases.SignupPasswordTest@4f80542f]" started-at="2023-02-06T17:29:25 PKT" name="createPasswordTest" finished-at="2023-02-06T17:29:34 PKT" duration-ms="8805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sonarwallet.qa.testcases.SignupPasswordTest@4f80542f]" started-at="2023-02-06T17:29:34 PKT" name="tearDown" finished-at="2023-02-06T17:29:34 PKT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sonarwallet.qa.testcases.SignupPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
